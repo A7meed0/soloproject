@@ -1,0 +1,93 @@
+ body{
+    background-image: url("https://as2.ftcdn.net/v2/jpg/00/93/03/41/1000_F_93034193_slcHcpcAGmtCzQqtzoVBXCxK1DA0gwqP.jpg"); 
+    background-size: cover; 
+    background-position: center;
+ }
+  .recipe-container {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: indianred;
+  }
+  
+  .recipe {
+    width: 30%; 
+    margin-bottom: 20px;
+    text-align: center;
+    border: 20px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgb(41, 185, 204);
+  }
+  
+
+
+  #img{
+      width: 250px; 
+      height: auto; 
+      border-radius: 8px;
+  }
+  #img:hover {
+    transform: scale(1.9); 
+    transition: transform 0.5s ease; 
+}
+  
+  #title {
+    text-align: center;
+    font-size: 10rem;
+    margin-bottom: 100px;
+    color: rgb(209, 170, 189);
+  }
+ 
+  div {
+    text-align: center;
+    margin-top: 40px;
+   
+  }
+  
+  
+  button {
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(81, 0, 255)
+  }
+ #del:hover {
+    background-color: rgb(252, 0, 34);
+  }
+  
+  
+ 
+  
+  .search-button {
+    margin-left: 10px;
+    padding: 8px 12px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  input,
+  textarea {
+    width: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+  }
+  
+  .add-button {
+    padding: 10px;
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  

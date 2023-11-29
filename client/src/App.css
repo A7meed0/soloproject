@@ -1,0 +1,12 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://img.freepik.com/free-photo/close-up-view-vegetables-as-garlic-onion-with-spices-butter-white-background-with-copy-space_141793-5314.jpg?w=740&t=st=1701210665~exp=1701211265~hmac=90c3a256de23f0a720b383a41535b0608d2b8729e09370107255bc43f2aee671"); 
+    background-size: cover; 
+    background-position: center; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: rgba(200, 200, 200, 0.8);
+   
+}
+
